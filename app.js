@@ -1,7 +1,4 @@
-// Element.getBoundingClientRect() method returns the size of an element and its position relative to the viewport.
-// pageYOffset is a read - only window property that returns the number of pixels the document has been scrolled vertically.
-// slice extracts a section of a string without modifying original string
-//offsetTop - A Number, representing the top position of the element, in pixels
+
 
 // ********** set date ************
 // select span
@@ -42,7 +39,7 @@ window.addEventListener("scroll", function () {
   // setup back to top link
 
   if (scrollHeight > 500) {
-    console.log("helo");
+    console.log("hello");
 
     topLink.classList.add("show-link");
   } else {
@@ -82,3 +79,8 @@ scrollLinks.forEach((link) => {
   });
 });
 // calculate heights
+//===================
+// Element.getBoundingClientRect() method returns the size of an element and its position relative to the viewport.
+// pageYOffset is a read - only window property that returns the number of pixels the document has been scrolled vertically.
+// slice extracts a section of a string without modifying original string
+//offsetTop - A Number, representing the top position of the element, in pixels
